@@ -3,114 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!--padronização de caracter-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--enquadramento proporcional nas telas-->
+    <!--padronização de caracter-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!--enquadramento proporcional nas telas-->
     <meta name="description" content="Essa é a primeira versão do meu site-portifólio!">
     <meta name="keyword" content="portifólio,Rebeca Barroca,html,css,diagramação, editorial">
     <meta name="author" content="Rebeca Barroca">
     <link rel="icon" type="image/x-icon" href="img/star.png">
     <title>Rebeca Barroca: Portifólio de Diagramação</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
-<nav class="nav">
-    <a href="#Início">Início</a>
-    <a href="#Sobremim">Sobre mim</a>
-    <div class="dropdown">
-        <a href="#Projetos">Projetos</a>
-        <div class="submenu">
-            <a href="#Alice">Alice no País das Maravilhas</a>
-            <a href="#Lorem">Lorem Ipsum</a>
-            <a href="#site">Portifólio Online</a>
-        </div>
-    </div>
-    <a href="#Certificados">Certificados</a>
-</nav>
-
 <body class="body">
+
+<!-- Navegação -->
+    <nav class="nav">
+        <a href="#Início">Início</a>
+        <a href="#Sobremim">Sobre mim</a>
+        <div class="dropdown">
+            <a href="#Projetos">Projetos</a>
+            <div class="submenu">
+                <a href="#LivroAlice">Alice no País das Maravilhas</a>
+                <a href="#FolderLorem">Lorem Ipsum</a>
+                <a href="#SitePortifolio">Portifólio Online</a>
+            </div>
+        </div>
+        <a href="#Certificados">Certificados</a>
+    </nav>
+
+<!-- Seção 1: Início -->
     <section class="secao1" id="Início">
-    <br><br><br><br>
-        <div>
-            <h2 style="font-size: 200%; padding-bottom: 5px; color: #000d70;">Portifólio de Diagramação</h2>
+        <div class="container1">
+            <h3 style="margin: 0; margin-top: 40px;">Portifólio de Diagramação</h3>
             <h1>Rebeca Barroca</h1>
         </div>
-
-        <hr style="margin-inline: 7%; margin-block: 3%; border-top: 1.5px solid #000d70;">
-
+        <hr style="margin-inline: 7%; margin-block: 3%; border-top: 1.5px solid var(--primaria);">
         <div>
             <p class="introtext">Olá, este site é a primeira versão de meu portifólio online, onde apresentarei alguns dos meus trabalhos como freelancer e estudante do curso de design da UFES e algumas de minhas certificações. Estou desenvolvendo este site como parte dos meus estudos sobre programação com HTML e CSS.</p>
         </div>
-    <br><br><br>
     </section>
-     
+
+<!-- Seção 2: Sobre mim -->
     <section class="secao2" id="Sobremim">
         <h2>Sobre mim</h2>
         <div class="container66">
             <img src="img/compressedme.png" alt="Foto Rebeca Barroca" class="pic66">
-            <div">
+            <div>
                 <h4>Formação</h4>
-                <p class="text">Sou Rebeca Barroca, tenho 22 anos e estudo Design na UFES. Sou apaixonada pela área de <b>diagramação e editoração</b>, tanto em plataformas digitais quanto para impressão. Também possuo formação como Técnica em Edificações pelo IFES (2018-2022), língua francesa (nível B1) e língua inglesa (nível C1). O contato com diferentes culturas e áreas acadêmicas me levou à busca de construir uma carreira que una minha dedicação à organização, criatividade e um propósito maior: oferecer soluções práticas e eficientes para facilitar a vida das pessoas.</p>
+                <p class="text66">Sou Rebeca Barroca, tenho 22 anos e estudo Design na UFES. Sou apaixonada pela área de <b>diagramação e editoração</b>, tanto em plataformas digitais quanto para impressão. Também possuo formação como Técnica em Edificações pelo IFES (2018-2022), língua francesa (nível B1) e língua inglesa (nível C1). O contato com diferentes culturas e áreas acadêmicas me levou à busca de construir uma carreira que una minha dedicação à organização, criatividade e um propósito maior: oferecer soluções práticas e eficientes para facilitar a vida das pessoas.</p>
                 <h4>Softwares</h4>
-                <p class="text">InDesign, Illustrator, Photoshop, Figma, VSCode, Pacote Office, Canva, Blender, AutoCAD.</p>
+                <p class="text66">InDesign, Illustrator, Photoshop, Figma, VSCode, Pacote Office, Canva, Blender, AutoCAD.</p>
             </div>
         </div>
-        <br><br>
+    <br><br>
     </section>
-      
+
+<!-- Seção 3: Projetos -->
     <section class="secao3" id="Projetos">
         <div>
             <h2>Projetos</h2>
-            <p>Para além  de organizar textos e imagens, a diagramação me interessa por ser uma forma de criar uma experiência visual que transmita a essência do conteúdo de forma clara e envolvente. Meu interesse é tal qual o próprio campo: em constante evolução, sendo assim, saí do que já domino (diagramação para fins analógicos) e estou em busca de aprimorar minhas habilidades em diagramações digitais.</p>
+            <p>Para além de organizar textos e imagens, a diagramação me interessa por ser uma forma de criar uma experiência visual que transmita a essência do conteúdo de forma clara e envolvente. Meu interesse é tal qual o próprio campo: em constante evolução, sendo assim, saí do que já domino (diagramação para fins analógicos) e estou em busca de aprimorar minhas habilidades em diagramações digitais.</p>
         </div>
 
-        <div>   <!--projeto 1-->
-            <h3 id="Alice">Alice no País das Maravilhas</h3>
-            <div>
-                <div class="container1">
-                    <img src="img/alice-capa.png" class="pic1" alt="Mockup capa ilustrada do livro Alice no País das Maravilhas">
-                </div>
-                <p class="text">O projeto deste livro (diagramação e ilustração) foi desenvolvido durante a disciplina de Design Editorial I sob a orientação da professora Heliana Pacheco. Alice no País das Maravilhas, obra de Charles L. Dogson, mais conhecido como Lewis Carrol, conta a história de uma menina curiosa que cai em uma toca de coelho e embarca em uma jornada surreal por um mundo mágico cheio de criaturas peculiares e desafios ilógicos.</p>
-                <div class="container33">
-                    <img src="img/alice-capítulo.png" alt="Mockup abertura de capítulo, livro Alice no País das Maravilhas" class="picH33left">
-                    <img src="img/alice-dentr.png" alt="Mockup texto corrido, livro Alice no País das Maravilhas" class="picH33center">
-                    <img src="img/alice-rato.png" alt="Mockup página de poesia, livro Alice no País das Maravilhas" class="picH33right">
-                </div>
+        <div class="projeto">
+            <h3 id="LivroAlice">Alice no País das Maravilhas</h3>
+            <div class="container1">
+                <img src="img/alice-capa.png" class="pic1" alt="Mockup capa ilustrada do livro Alice no País das Maravilhas">
+            </div>
+            <p>O projeto deste livro (diagramação e ilustração) foi desenvolvido durante a disciplina de Design Editorial I sob a orientação da professora Heliana Pacheco. Alice no País das Maravilhas, obra de Charles L. Dogson, mais conhecido como Lewis Carrol, conta a história de uma menina curiosa que cai em uma toca de coelho e embarca em uma jornada surreal por um mundo mágico cheio de criaturas peculiares e desafios ilógicos.</p>
+            <div class="container33">
+                <img src="img/alice-capítulo.png" alt="Mockup abertura de capítulo, livro Alice no País das Maravilhas" class="picH33left">
+                <img src="img/alice-dentr.png" alt="Mockup texto corrido, livro Alice no País das Maravilhas" class="picH33center">
+                <img src="img/alice-rato.png" alt="Mockup página de poesia, livro Alice no País das Maravilhas" class="picH33right">
             </div>
             <p>A escolha de tonalidades de azul e dourado faz jus à posição de aristocráta da protagonista, bem como a utilização de uma fonte clássica serifada para o corpo do texto. Notando a mente acelerada e labiríntica de Alice, vi a oportunidade de utilizar diversas fontes nas aberturas de capítulo e diferenciar as falas expressadas verbalmente e das falas apenas imaginadas da personagem.</p>
         </div>
-        
-        <div>   <!--projeto 2-->
-            <h3 id="Lorem">Lorem Ipsum</h3>
+
+        <div class="projeto">
+            <h3 id="FolderLorem">Lorem Ipsum</h3>
             <div class="container50">
-            <img src="img/lorem-ipsum-1.png" alt="Mockup de folder sobre Lorem Ipsum - lado A" class="pic50left">
-            <img src="img/lorem-ipsum-2.png" alt="Mockup de folder sobre Lorem Ipsum - lado B" class="pic50right">
+                <img src="img/lorem-ipsum-1.png" alt="Mockup de folder sobre Lorem Ipsum - lado A" class="pic50left">
+                <img src="img/lorem-ipsum-2.png" alt="Mockup de folder sobre Lorem Ipsum - lado B" class="pic50right">
             </div>
-            <p>Com o objetivo de reconstruir e comparar um projeto antigo, recriei em outubro de 2024 em formato de folder o texto "Lorem Ipsum", incialmente produzido como uma folha simples durante a disciplina de Tipografia, ministrada pelo professor Ricardo Esteves, em 2022. O projeto explra a definição, a história e a aplicação do texto lorem ipsum, sendo um material informativo que esclarece como esse texto se tornou um padrão na indústria de design gráfico e tipografia.</p>
+            <p>Com o objetivo de reconstruir e comparar um projeto antigo, recriei em outubro de 2024 em formato de folder o texto "Lorem Ipsum", inicialmente produzido como uma folha simples durante a disciplina de Tipografia, ministrada pelo professor Ricardo Esteves, em 2022. O projeto explora a definição, a história e a aplicação do texto Lorem Ipsum, sendo um material informativo que esclarece como esse texto se tornou um padrão na indústria de design gráfico e tipografia.</p>
         </div>
-        
-        <div>
-            <h3 id="site">Site: Portifólio Online</h3>
+
+        <div class="projeto">
+            <h3 id="SitePortifolio">Site: Portifólio Online</h3>
             <div class="container1">
-                <img src="img/site1.png" class="pic1">
+                <img src="img/site1.png" class="pic1" alt="Mockup do site portifólio online">
             </div>
             <p>Este projeto diz respeito à criação de um site que comporte o meu portifólio gráfico e integre o meu portifólio digital, aplicando meus conhecimentos em HTML e CSS. "Como já trabalhei anteriormente com o Figma, me propus o desafio pessoal de aprender HTML e CSS para compreender as linguagens que estruturam as interfaces desenvolvidas nessa plataforma.</p>
             <div class="container1">
-                <img src="img/html1.png" class="pic1">
+                <img src="img/html1.png" class="pic1" alt="Print código HTML">
             </div>
             <div class="container33">
-                <img src="img/css1.png" class="picV33left">
-                <img src="img/css2.png" class="picV33center">
-                <img src="img/css3.png" class="picV33right">
+                <img src="img/css1.png" class="picV33left" alt="Print código CSS">
+                <img src="img/css2.png" class="picV33center" alt="Print código CSS">
+                <img src="img/css3.png" class="picV33right" alt="Print código CSS">
             </div>
         </div>
         <br><br>
     </section>
 
+<!-- Seção 4: Certificados -->
     <section class="secao4" id="Certificados">
         <div>
             <h2>Certificados</h2>
         </div>
+        <br>
         <div class="container50">
             <img src="img/certificado HTML.jpg" alt="Certificado HTML" class="pic50left">
             <img src="img/certificado css.png" alt="Certificado CSS" class="pic50right">
@@ -118,8 +118,10 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <p>Desenvolvido por Rebeca Barroca © 2024</p>
-    </footer>
+<!-- Rodapé -->
+<footer class="footer">
+    <p>Desenvolvido por Rebeca Barroca © 2024</p>
+</footer>
+
 </body>
 </html>
