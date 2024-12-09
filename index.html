@@ -1,280 +1,128 @@
-:root {
-    --primaria: #1E2D78;
-    --secundaria: #b4dcbe;
-    --primaria-claro: #f3f9ff;
-    --texto-claro: #fffef9;
-    --texto-footer: #A3B2E6;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--padronização de caracter-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!--enquadramento proporcional nas telas-->
+    <meta name="description" content="Essa é a primeira versão do meu site-portfólio!">
+    <meta name="keyword" content="portfólio, Rebeca Barroca,Barroca, Rebeca Barroca Silva, Rebeca Silav, html, css, diagramação, editorial, design gráfico, design editorial, diagramação editorial, editoração">
+    <meta name="author" content="Rebeca Barroca">
+    <link rel="icon" type="image/x-icon" href="img/star.png">
+    <title>Rebeca Barroca: Portfólio de Diagramação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
 
-* {
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    margin: 0;
-}
+<!-- Navegação -->
+    <nav class="nav">
+        <a href="#Início">Início</a>
+        <a href="#Sobremim">Sobre mim</a>
+        <div class="dropdown">
+            <a href="#Projetos">Projetos</a>
+            <div class="submenu">
+                <a href="#LivroAlice">Alice no País das Maravilhas</a>
+                <a href="#FolderLorem">Lorem Ipsum</a>
+                <a href="#SitePortifolio">Portfólio Online</a>
+            </div>
+        </div>
+        <a href="#Certificados">Certificados</a>
+    </nav>
 
-.nav {
-    position: fixed;
-    width: 100%;
-    background-color: var(--primaria);
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10%;
-    z-index: 10;
-    a {
-        color: var(--primaria-claro);
-        text-decoration: none;
-        transition: font-size 0.3s ease, color 0.3s ease;
-        font-size: 110%;
-    }
+<!-- Seção 1: Início -->
+    <section class="secao1" id="Início">
+        <div class="container1">
+            <h3 style="margin: 0; margin-top: 40px;">Portfólio de Diagramação</h3>
+            <h1>Rebeca Barroca</h1>
+        </div>
+        <hr style="margin-inline: 7%; margin-block: 3%; border-top: 1.5px solid var(--primaria);">
+        <div>
+            <p class="introtext">Olá, este site é a primeira versão de meu portfólio online, onde apresentarei alguns dos meus trabalhos como freelancer e estudante do curso de design da UFES e algumas de minhas certificações. Estou desenvolvendo este site como parte dos meus estudos sobre programação com HTML e CSS.</p>
+        </div>
+        <br>
+    </section>
 
-    a:hover {
-        font-size: 150%;
-        color: var(--secundaria)}
-}
+<!-- Seção 2: Sobre mim -->
+    <section class="secao2" id="Sobremim">
+        <h2>Sobre mim</h2>
+        <div class="container66">
+            <img src="img/compressedme.png" alt="Foto Rebeca Barroca" class="pic66">
+            <div>
+                <h4>Formação</h4>
+                <p class="text66">Sou Rebeca Barroca, tenho 22 anos e estudo Design na UFES. Sou apaixonada pela área de <b>diagramação e editoração</b>, tanto em plataformas digitais quanto para impressão. Também possuo formação como Técnica em Edificações pelo IFES (2018-2022), língua francesa (nível B1) e língua inglesa (nível C1). O contato com diferentes culturas e áreas acadêmicas me levou à busca de construir uma carreira que una minha dedicação à organização, criatividade e um propósito maior: oferecer soluções práticas e eficientes para facilitar a vida das pessoas.</p>
+                <h4>Softwares</h4>
+                <p class="text66">InDesign, Illustrator, Photoshop, Figma, VSCode, Pacote Office, Canva, Blender, AutoCAD.</p>
+            </div>
+        </div>
+    <br><br>
+    </section>
 
-.dropdown {position: relative;}
+<!-- Seção 3: Projetos -->
+    <section class="secao3" id="Projetos">
+        <div>
+            <h2>Projetos</h2>
+            <p>Para além de organizar textos e imagens, a diagramação me interessa por ser uma forma de criar uma experiência visual que transmita a essência do conteúdo de forma clara e envolvente. Meu interesse é tal qual o próprio campo: em constante evolução, sendo assim, saí do que já domino (diagramação para fins analógicos) e estou em busca de aprimorar minhas habilidades em diagramações digitais.</p>
+        </div>
 
-.dropdown:hover .submenu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-}
+        <div class="projeto">
+            <h3 id="LivroAlice">Alice no País das Maravilhas</h3>
+            <div class="container1">
+                <img src="img/alice-capa.png" class="pic1" alt="Mockup capa ilustrada do livro Alice no País das Maravilhas">
+            </div>
+            <p>O projeto deste livro (diagramação e ilustração) foi desenvolvido durante a disciplina de Design Editorial I sob a orientação da professora Heliana Pacheco. Alice no País das Maravilhas, obra de Charles L. Dogson, mais conhecido como Lewis Carrol, conta a história de uma menina curiosa que cai em uma toca de coelho e embarca em uma jornada surreal por um mundo mágico cheio de criaturas peculiares e desafios ilógicos.</p>
+            <div class="container33">
+                <img src="img/alice-capítulo.png" alt="Mockup abertura de capítulo, livro Alice no País das Maravilhas" class="picH33left">
+                <img src="img/alice-dentr.png" alt="Mockup texto corrido, livro Alice no País das Maravilhas" class="picH33center">
+                <img src="img/alice-rato.png" alt="Mockup página de poesia, livro Alice no País das Maravilhas" class="picH33right">
+            </div>
+            <p>A escolha de tonalidades de azul e dourado faz jus à posição de aristocráta da protagonista, bem como a utilização de uma fonte clássica serifada para o corpo do texto. Notando a mente acelerada e labiríntica de Alice, vi a oportunidade de utilizar diversas fontes nas aberturas de capítulo e diferenciar as falas expressadas verbalmente e das falas apenas imaginadas da personagem.</p>
+        </div>
 
-.submenu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--secundaria);
-    padding: 8px;
-    box-shadow: 0px 4px 6px #0d16466a;
-    border-radius: 2px;
-    z-index: 5;
-    white-space: nowrap;
-    min-width: 200%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease;
-    a {
-        display: block;
-        padding: 5px 10px;
-        color: var(--primaria);
-        text-decoration: none;
-        font-size: 80%;
-        transition: background-color 0.3s ease;
-        text-align: left;
-    }
+        <div class="projeto">
+            <h3 id="FolderLorem">Lorem Ipsum</h3>
+            <div class="container50">
+                <img src="img/lorem-ipsum-1.png" alt="Mockup de folder sobre Lorem Ipsum - lado A" class="pic50left">
+                <img src="img/lorem-ipsum-2.png" alt="Mockup de folder sobre Lorem Ipsum - lado B" class="pic50right">
+            </div>
+            <p>Com o objetivo de reconstruir e comparar um projeto antigo, recriei em outubro de 2024 em formato de folder o texto "Lorem Ipsum", inicialmente produzido como uma folha simples durante a disciplina de Tipografia, ministrada pelo professor Ricardo Esteves, em 2022. O projeto explora a definição, a história e a aplicação do texto Lorem Ipsum, sendo um material informativo que esclarece como esse texto se tornou um padrão na indústria de design gráfico e tipografia.</p>
+        </div>
 
-    a:hover {
-        color: white;
-        font-size: 100%;
-    }
-}
+        <div class="projeto">
+            <h3 id="SitePortifolio">Site: Portfólio Online</h3>
+            <div class="container1">
+                <img src="img/site1.png" class="pic1" alt="Mockup do site portfólio online">
+            </div>
+            <p>Este projeto diz respeito à criação de um site que comporte o meu portfólio gráfico e integre o meu portfólio digital, aplicando meus conhecimentos em HTML e CSS. "Como já trabalhei anteriormente com o Figma, me propus o desafio pessoal de aprender HTML e CSS para compreender as linguagens que estruturam as interfaces desenvolvidas nessa plataforma.</p>
+            <div class="container1">
+                <img src="img/html1.png" class="pic1" alt="Print código HTML">
+            </div>
+            <div class="container33">
+                <img src="img/css1.png" class="picV33left" alt="Print código CSS">
+                <img src="img/css2.png" class="picV33center" alt="Print código CSS">
+                <img src="img/css3.png" class="picV33right" alt="Print código CSS">
+            </div>
+        </div>
+        <br><br>
+    </section>
 
-body {
-    color: #000000;
-    text-align: justify;
-    font-family: "Montserrat", arial, sans-serif;
-}
+<!-- Seção 4: Certificados -->
+    <section class="secao4" id="Certificados">
+        <div>
+            <h2>Certificados</h2>
+        </div>
+        <br>
+        <div class="container50">
+            <img src="img/certificado HTML.jpg" alt="Certificado HTML" class="pic50left">
+            <img src="img/certificado css.png" alt="Certificado CSS" class="pic50right">
+            <img src="img/certificado figma.png" alt="Certificado Figma" class="pic50left">
+        </div>
+    </section>
 
-.secao1 {background-color: var(--primaria-claro);}
-.secao2 {background-color: #f3fff4;}
-.secao3 {background-color: #fdfff3;}
-.secao4 {background-color: #fff3f8;}
-.secao1, .secao2, .secao3, .secao4 {padding: 40px 0;}
+<!-- Rodapé -->
+<footer>
+    <p class="footer">Desenvolvido por Rebeca Barroca © 2024</p>
+</footer>
 
-h1, h2, h3, h4 {
-    color: var(--primaria);
-    font-family: Georgia, serif;
-}
-
-h1 {
-    text-align: center;
-    font-size: 400%;
-}
-
-h2 {
-    text-align: center;
-    font-size: 300%;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-h3 {
-    text-align: center;
-    font-size: 250%;
-    font-weight: 125;
-    margin-inline: 3%;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-h4 {
-    margin-inline: 7%;
-    text-align: left;
-    font-size: 175%;
-    font-weight: 125;
-}
-
-.introtext {
-    text-align: center;
-    margin-inline: 10%;
-    font-size: 150%;
-}
-
-p {
-    margin-inline: 7%;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-/* 1 coluna */
-.container1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    margin: 15px;
-}
-
-/* 2 colunas de proporção 1:3 */
-.container66 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    flex-wrap: wrap; /* texto ir para baixo */
-}
-
-/* 3 colunas de proporção 1:1:1 */
-.container33 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    margin-inline: 7%;
-    flex-wrap: wrap; /* texto ir para baixo */
-}
-
-/* 2 colunas HORIZONTALIZADAS de proporção 1:2 */
-.container50 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    flex-wrap: wrap; /* texto ir para baixo */
-}
-
-.container1, .container50, .container33 {
-    gap: 2%;
-}
-
-.text66 {
-    margin-inline: 7%;
-    padding-top: 7px;
-}
-
-.pic1 {max-width: 90vh;
-    object-fit: cover;
-    justify-self: center;
-}
-
-.pic66 {width: 86%;
-    height: 100%;
-    border-radius: 7%;
-    object-fit: cover;
-    justify-self: right;
-}
-
-/*foto a esquerda*/
-.pic50left {width: 80%;
-    height: auto;
-    object-fit: cover;
-    justify-self: right;
-}
-
-/*foto a direita*/
-.pic50right {width: 80%; 
-    height: auto;
-    object-fit: cover;
-    justify-self: left;
-}
-
-/*foto horizontal a esquerda*/
-.picH33left {width: 53.7vh;
-    height: auto;
-    object-fit: cover;
-    justify-self: right;
-}
-
-/*foto horizontal ao centro*/
-.picH33center {width: 53.7vh;
-    height: auto;
-    object-fit: cover;
-    justify-self: center;
-}
-
-/*foto horizontal a direita*/
-.picH33right {width: 53.7vh;
-    height: auto;
-    object-fit: cover;
-    justify-self: left;
-}
-
-/*foto vertical a esquerda*/
-.picV33left {width: 53.7vh;
-    height: auto;
-    object-fit: cover;
-    justify-self: right;
-}
-
-/*foto vertical ao centro*/
-.picV33center {width: 53.7vh;
-    height: auto;
-    object-fit: cover;
-    justify-self: center;
-}
-
-/*foto vertical a direita*/
-.picV33right {min-width: 45vh;
-    width: 53.7vh;
-    height: auto;
-    object-fit: cover;
-    justify-self: left;
-}
-
-@media (max-width: 860px) {
-    .container66, .container50, .container33 {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .pic66,
-    .pic50left,
-    .pic50right,
-    .picH33left,
-    .picH33center,
-    .picH33right,
-    .picV33left,
-    .picV33center,
-    .picV33right,
-    .pic1 {
-        max-width: 80%;
-        height: auto;
-        object-fit: cover;
-        justify-self: center;
-    }
-
-    h4, .text66 {justify-self: left;}
-}
-
-.footer {
-    background-color: var(--primaria);
-    width: 100%;
-    font-size: 12px;
-    text-align: center;
-    color: var(--texto-footer);
-    padding: 5px;
-    margin:0;
-    height: auto;
-}
+</body>
+</html>
